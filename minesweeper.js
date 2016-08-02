@@ -23,6 +23,24 @@ var board = {
     hidden: true
   },
   {
+    row: 1,
+    col: 4,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 1,
+    col: 5,
+    isMine: false,
+    hidden: true
+  },
+  {
+    row: 1,
+    col: 6,
+    isMine: false,
+    hidden: true
+  },
+  {
     row: 2,
     col: 1,
     isMine: true,
@@ -37,6 +55,24 @@ var board = {
   {
     row: 2,
     col: 3,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 2,
+    col: 4,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 2,
+    col: 5,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 2,
+    col: 6,
     isMine: false,
     hidden: true
   },
@@ -55,6 +91,132 @@ var board = {
   {
     row: 3,
     col: 3,
+    isMine: false,
+    hidden: true
+  },
+  {
+    row: 3,
+    col: 4,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 3,
+    col: 5,
+    isMine: false,
+    hidden: true
+  },
+  {
+    row: 3,
+    col: 6,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 4,
+    col: 1,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 4,
+    col: 2,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 4,
+    col: 3,
+    isMine: false,
+    hidden: true
+  },
+  {
+    row: 4,
+    col: 4,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 4,
+    col: 5,
+    isMine: false,
+    hidden: true
+  },
+  {
+    row: 4,
+    col: 6,
+    isMine: false,
+    hidden: true
+  },
+  {
+    row: 5,
+    col: 1,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 5,
+    col: 2,
+    isMine: false,
+    hidden: true
+  },
+  {
+    row: 5,
+    col: 3,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 5,
+    col: 4,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 5,
+    col: 5,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 5,
+    col: 6,
+    isMine: false,
+    hidden: true
+  },
+  {
+    row: 6,
+    col: 1,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 6,
+    col: 2,
+    isMine: false,
+    hidden: true
+  },
+  {
+    row: 6,
+    col: 3,
+    isMine: false,
+    hidden: true
+  },
+  {
+    row: 6,
+    col: 4,
+    isMine: true,
+    hidden: true
+  },
+  {
+    row: 6,
+    col: 5,
+    isMine: false,
+    hidden: true
+  },
+  {
+    row: 6,
+    col: 6,
     isMine: true,
     hidden: true
   }
