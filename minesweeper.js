@@ -96,19 +96,14 @@ function resetBoard() {
   while (new Date() < ms) {}
     console.log("Time delay remaining:", ms - new Date());
   }
-    var notSure = true
-    while (notSure) {
-      var playAgain = prompt("Would you like to play again? Type 'yes' or 'no'")
-      if (playAgain.toUpperCase() === 'NO') {
-        alert("Thanks, see you next time!")
-        return
-        } else {
-      notSure = false
-      }
-    }
-  alert("OK, here we go!")
-  location.reload();
+  var playAgain = prompt("Would you like to play again? Type 'yes' or 'no'")
+  if (playAgain.toUpperCase() === 'NO') {
+    alert("Thanks, see you next time!")
+  } else {
+    alert("OK, here we go!")
+    location.reload();
   }
+}
 
 
 // function checkForWin () {
