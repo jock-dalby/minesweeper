@@ -92,6 +92,10 @@ function checkForWin () {
 }
 
 function resetBoard() {
+  var ms = 3000 + new Date().getTime();
+  while (new Date() < ms) {}
+    
+  }
     var notSure = true
     while (notSure) {
       var playAgain = prompt("Would you like to play again? Type 'yes' or 'no'")
