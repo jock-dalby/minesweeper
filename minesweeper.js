@@ -102,11 +102,7 @@ function resetBoard() {
       if (playAgain.toUpperCase() === 'NO') {
         alert("Thanks, see you next time!")
         return
-        }
-      if (playAgain.toUpperCase() !== 'YES') {
-        alert("Sorry, I did not recognise your answer, please try again typing either 'yes' or 'no'.")
-        }
-      if (playAgain.toUpperCase() === 'YES') {
+        } else {
       notSure = false
       }
     }
