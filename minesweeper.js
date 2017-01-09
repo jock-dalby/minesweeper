@@ -94,7 +94,7 @@ function checkForWin () {
 function resetBoard() {
   var ms = 3000 + new Date().getTime();
   while (new Date() < ms) {}
-    
+    console.log("Time delay remaining:", ms - new Date());
   }
     var notSure = true
     while (notSure) {
